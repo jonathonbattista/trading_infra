@@ -4,7 +4,6 @@ from discord import Webhook, RequestsWebhookAdapter
 from sys import stdout
 import math
 import time
-from flask import Flask, request
 
 log = logging.getLogger()
 log.setLevel(logging.DEBUG)
